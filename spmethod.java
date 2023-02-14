@@ -12,20 +12,30 @@
 //     }
 // }
 
+// public class spmethod{
+//     public void fullthrottle(){
+//         System.out.println("this car will run at full speed");
+
+//     }
+//     public void speed(int maxspeed){
+//         System.out.println("max speed is: " + maxspeed  + " m/s.");
+
+//     }
+//     public static void main(String[] args) {
+//      spmethod mycar = new spmethod();   
+//      mycar.fullthrottle();
+//      mycar.speed(299792448);
+     
+//     }
+// }  
+
 public class spmethod{
     public void fullthrottle(){
-        System.out.println("this car will run at full speed");
+        System.out.println("max speed of my car will fuck your mind");
+    }
+    public void maxspeed( int speed){
+        System.out.println("max speed is: "+ speed);
+    }
 
-    }
-    public void speed(int maxspeed){
-        System.out.println("max speed is: " + maxspeed  + " m/s.");
-
-    }
-    public static void main(String[] args) {
-     spmethod mycar = new spmethod();   
-     mycar.fullthrottle();
-     mycar.speed(299792448);
-     
-    }
-}        
+}
    
